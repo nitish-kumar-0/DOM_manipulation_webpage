@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Learning Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DOM Learning Playground</h1>
+    <p>Use this page to practice common <strong>DOM (Document Object Model)</strong> concepts interactively.</p>
+
+    <h2>1. Selecting Elements</h2>
+    <p id="demo-text">This text can be changed using <code>getElementById()</code>.</p>
+    <button onclick="changeText()">Change Text</button>
+
+
+    <h2>2. Changing Styles</h2>
+    <div class="box" id="style-box">Click the button to change my style.</div>
+    <button onclick="changeStyle()">Change Style</button>
+
+
+    <h2>3. Adding Elements</h2>
+    <ul id="item-list">
+      <li>Learn HTML</li>
+      <li>Learn CSS</li>
+    </ul>
+    <button onclick="addItem()">Add DOM Item</button>
+
+
+    <h2>4. Removing Elements</h2>
+    <button onclick="removeItem()">Remove Last Item</button>
+
+
+    <h2>5. Event Listeners</h2>
+    <input type="text" id="name-input" placeholder="Type your name" />
+    <p id="output"></p>
+
+
+    <h2>6. Class Manipulation</h2>
+    <span id="class-text">Toggle highlight on this paragraph.</span>
+    <br>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+
+
+   
+    <span>&hearts;</span>
+  </div>
+
+ <script src ="script.js"></script>
+</body>
+</html>
