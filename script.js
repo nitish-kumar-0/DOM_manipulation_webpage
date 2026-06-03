@@ -13,9 +13,9 @@ function changeStyle(){
 }
 
 function addItem(){
-    const li = document.createElement('a'); 
+    const li = document.createElement('li'); 
     li.textContent='new list item';
-    document.getElementById('item-list').appendChild(a);
+    document.getElementById('item-list').appendChild(li);
     
 }
 
